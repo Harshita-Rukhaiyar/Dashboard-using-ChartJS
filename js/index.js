@@ -14,8 +14,6 @@ var lineChartData = {
 
 var ctx = document.getElementById("canvas").getContext("2d");
 var LineChartDemo = new Chart(ctx).Line(lineChartData, {
-    pointDotRadius: 5,
-    bezierCurve: false,
-    scaleShowVerticalLines: false,
-    scaleGridLineColor: "black"
+    pointDotRadius: 3,
+    
 });
